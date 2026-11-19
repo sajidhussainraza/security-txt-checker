@@ -1,0 +1,12 @@
+Security.txt report: https://www.google.com
+Score: 97/100  Grade: A
+
+  Final URL: https://www.google.com/.well-known/security.txt
+  Status: 200
+  Content-Type: text/plain
+  Redirects: 0
+  Fields: 6
+
+Findings (1):
+  [LOW] expires: Expires date 2030-04-01T00:00:00z is more than a year away; a long-lived file is easy to forget and leave stale.
+        Fix: Set Expires no more than a year ahead and review the file when it renews.

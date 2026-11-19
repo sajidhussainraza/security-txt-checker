@@ -1,0 +1,10 @@
+Security.txt report: https://github.com
+Score: 100/100  Grade: A
+
+  Final URL: https://github.com/.well-known/security.txt
+  Status: 200
+  Content-Type: text/plain
+  Redirects: 0
+  Fields: 7
+
+No findings: this security.txt looks good.
