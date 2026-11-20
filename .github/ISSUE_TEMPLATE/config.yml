@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/sajidhussainraza/security-txt-checker/blob/main/SECURITY.md
+    about: Do not open a public issue for a security vulnerability — email info@cyberlegends.org instead.
+  - name: Question about security.txt / RFC 9116
+    url: https://www.rfc-editor.org/rfc/rfc9116
+    about: The standard this tool audits against.

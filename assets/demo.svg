@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="demoTitle demoDesc">
+  <title id="demoTitle">Security.txt Checker terminal output</title>
+  <desc id="demoDesc">Static preview of the real terminal output from auditing github.com: score 100 out of 100, grade A, no findings.</desc>
+  <rect width="1000" height="430" rx="12" fill="#0B1220"/>
+  <rect width="1000" height="44" rx="12" fill="#12233D"/>
+  <rect y="32" width="1000" height="12" fill="#12233D"/>
+  <circle cx="34" cy="22" r="8" fill="#F87171"/>
+  <circle cx="62" cy="22" r="8" fill="#FBBF24"/>
+  <circle cx="90" cy="22" r="8" fill="#34D399"/>
+  <text x="130" y="29" font-family="monospace" font-size="16" fill="#94A3B8">security-txt-checker — terminal</text>
+  <g font-family="monospace" font-size="19">
+    <text x="32" y="92" fill="#2DD4BF">$ python3 security_txt_checker.py https://github.com</text>
+    <text x="32" y="130" fill="#E5E7EB">Security.txt report: https://github.com</text>
+    <text x="32" y="168" fill="#E5E7EB">Score: 100/100  Grade: <tspan fill="#34D399" font-weight="bold">A</tspan></text>
+    <text x="32" y="206" fill="#E5E7EB">  Final URL: https://github.com/.well-known/security.txt</text>
+    <text x="32" y="244" fill="#E5E7EB">  Status: 200</text>
+    <text x="32" y="282" fill="#E5E7EB">  Content-Type: text/plain</text>
+    <text x="32" y="320" fill="#E5E7EB">  Redirects: 0</text>
+    <text x="32" y="358" fill="#E5E7EB">  Fields: 7</text>
+    <text x="32" y="396" fill="#34D399">No findings: this security.txt looks good.</text>
+  </g>
+</svg>

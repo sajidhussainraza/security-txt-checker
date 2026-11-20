@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Security.txt Checker</title>
+  <desc id="bannerDesc">Audit any site's security.txt against RFC 9116, graded A-F, instantly.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#12233D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <!-- circuit traces -->
+  <g stroke="#2DD4BF" stroke-width="2" fill="none" opacity="0.28">
+    <polyline points="0,120 180,120 240,180 420,180"/>
+    <polyline points="0,520 150,520 210,460 380,460"/>
+    <polyline points="640,0 640,90 700,150 700,210"/>
+    <polyline points="1280,140 1150,140 1090,200 1090,240"/>
+    <polyline points="1280,500 1180,500 1120,440 1120,400"/>
+  </g>
+  <g fill="#2DD4BF" opacity="0.7">
+    <circle cx="420" cy="180" r="5"/>
+    <circle cx="380" cy="460" r="5"/>
+    <circle cx="700" cy="210" r="5"/>
+    <circle cx="1090" cy="240" r="5"/>
+    <circle cx="1120" cy="400" r="5"/>
+  </g>
+  <!-- shield icon -->
+  <g fill="none" stroke="#2DD4BF" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M1020 150 L1150 205 V330 C1150 425 1095 495 1020 530 C945 495 890 425 890 330 V205 Z" stroke-width="7"/>
+    <path d="M1020 185 L1115 230 V330 C1115 405 1072 462 1020 490 C968 462 925 405 925 330 V230 Z" stroke-width="3" opacity="0.55"/>
+    <polyline points="955,325 1000,370 1090,270" stroke-width="11"/>
+  </g>
+  <!-- title and tagline -->
+  <text x="80" y="300" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" fill="#FFFFFF">Security.txt Checker</text>
+  <text x="80" y="356" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#2DD4BF">Audit any site&#8217;s security.txt against RFC 9116,</text>
+  <text x="80" y="394" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#2DD4BF">graded A-F, instantly.</text>
+  <!-- proof pill: verified live audit of github.com -->
+  <rect x="80" y="432" width="380" height="52" rx="26" fill="none" stroke="#2DD4BF" stroke-width="2"/>
+  <text x="108" y="466" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#E5E7EB">github.com &#183; 100/100 &#183; Grade A</text>
+  <text x="80" y="590" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#94A3B8">Cyber Legends</text>
+</svg>

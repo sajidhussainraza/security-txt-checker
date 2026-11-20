@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest a new check, flag, or improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation, not just the feature.
+      placeholder: "I audit many sites and I want…"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What do you propose?
+      description: The check, flag, or behaviour you have in mind, and how it should work.
+    validations:
+      required: true
+  - type: textarea
+    id: rfc
+    attributes:
+      label: Does RFC 9116 cover this?
+      description: If yes, which field or rule? If no, say so — the tool only documents behaviour that exists in the standard or the code.
+      placeholder: "Yes — the Canonical field, Section 3.3 / No"
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+    validations:
+      required: false

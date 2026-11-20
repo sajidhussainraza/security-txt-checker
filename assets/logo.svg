@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Security.txt Checker logo</title>
+  <desc id="logoDesc">A teal shield with a checkmark on a dark navy rounded square.</desc>
+  <rect width="512" height="512" rx="96" fill="#0B1220"/>
+  <g fill="none" stroke="#2DD4BF" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M256 72 L404 138 V258 C404 362 342 436 256 468 C170 436 108 362 108 258 V138 Z" stroke-width="18"/>
+    <path d="M256 112 L364 164 V258 C364 336 318 396 256 424 C194 396 148 336 148 258 V164 Z" stroke-width="7" opacity="0.55"/>
+    <polyline points="188,258 242,312 330,196" stroke-width="26"/>
+  </g>
+</svg>
